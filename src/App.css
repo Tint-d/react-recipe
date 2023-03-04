@@ -1,0 +1,21 @@
+.image{
+    opacity: 1;
+    transition: all 0.7s;
+}
+
+.parent:hover .image{
+    opacity: 0.7;
+}
+
+.icon{
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.parent:hover .icon{
+    opacity: 1;
+}
+
+/* .active{
+    color: rgb(54, 125, 54);
+} */
